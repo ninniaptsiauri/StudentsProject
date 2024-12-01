@@ -197,7 +197,7 @@ class StudentManager():
         student_found = False
         for student in self.__students:
             if student.roll_number == roll_number:
-                print(f"Student found:\n{student}")
+                print(f"\nStudent found:\nStudent Name: {student.name} | Roll Number: {student.roll_number} | Grade: {student.grade}")
                 student_found = True
                 break
                 
@@ -270,7 +270,7 @@ class MenuManager:
 
         while True: 
             try:  
-                option = int(input("Choose an option -> "))
+                option = int(input("\nChoose an option -> "))
                 if option in options:
                     options[option]()
                 else:
