@@ -287,14 +287,14 @@ class MenuManager:
         print("1. Add New Student")
         print("2. See All Students")
         print("3. Search Student by Roll Number")
-        print("4. Update Student grade")
+        print("4. Update Student Grade")
         print("5. Remove Student by Roll Number")
         print("6. Exit")
         print("---------------------------------")
         print("For example, if you want to add a new student, type -> 1")
 
 
-
+    
     def exit_app(self):
         print("Exiting the application. Goodbye!")   
         exit()
